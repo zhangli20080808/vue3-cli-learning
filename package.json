@@ -1,0 +1,13 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "create": "node packages/zhangli-cli/bin/vue.js hello1"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
