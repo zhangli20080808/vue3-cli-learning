@@ -1,0 +1,25 @@
+{
+  "name": "zhangli-cli-test",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "zhangli20080808 <791492434@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/zhangli-cli-test.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "bin": {
+    "zl-test": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "inquirer": "^8.1.2"
+  }
+}
